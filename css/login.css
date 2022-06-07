@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+iframe
+{
+  margin-top: 120px;
+  margin-left: 50px;
+
+}
+
+
+.container {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: rgba(159, 99, 99, 0.4);
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+  }
+  .container input[type="text"],
+  .container input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid purple;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.3px;
+    font-display: white;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .container input[type="text"]:focus,
+  .container input[type="password"]:focus {
+    width: 270px;
+    border-color: purple;
+    color: white;
+  }
+  button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid green;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: yellowgreen;
+  }
+  body {
+    background-image: url(../images/adventures/stars.jpg);
+    background-color: purple;
+    background-repeat: no-repeat;
+    font-family: "", Poppins;
+    background-size: cover;
+  }
+  
+  .label {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    height: 17px;
+    width: 40px;
+    justify-content: flex-end;
+  }
+ 
+  

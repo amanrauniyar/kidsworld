@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids World</title>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="../images/moonlight.png" id="homepage" height = 50px width = 50px>
+        </a>
+        <ul>
+            <li> <a href="domestic.html">Domestic</a></li>
+            <li> <a href="wild.html">Wild</a></li>
+            <li> <a href="../budgetApp/index.html">Budgeting</a></li>
+        </ul> 
+    </header>  
+    <section>
+        <!-- <img src="../images/adventures/stars.jpg" id="stars"> -->
+        <img src="../images/adventures/moon.png" id="moon">
+        <h2 id="headline">Kids World</h2>
+        <a href="#sec" id="btn">About Me</a> 
+        <img src="../images/adventures/mm.jpg" id="moon_mountain"> 
+    </section>
+    <section>
+        <img src="../images/adventures/alienstarship.jpg" id="alienstarship">
+    </section>
+    <div class="sec" id="sec">
+        <h2 id="demo">Explore</h2>
+        <p>
+            Hi, I am Aman Rauniyar. I have designed this website for kids and teenagers. It has picture gallery for domestic and wild 
+            animals. Also for adventure rides and activities. And, there is a budgeting calculator to track your income and
+            expenses to stay in your budget.
+        </p>
+    </div>
+    <!-- <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let moon_mountain = document.getElementById('moon_mountain');
+        let headline = document.getElementById('headline');
+        let btn = document.getElementById('btn');
+        let alienstarship = document.getElementById('alienstarship');
+    </script>  -->
+
+    <script>
+        var h1 = ["Kids", " World"];
+        var colors = ["blue", "green"];
+        var text = "";
+        for (var i = 0; i < h1.length; i++) {
+          text += "<font color='" + colors[i] + "'>" + h1[i] + "</font>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+</html>
