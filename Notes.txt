@@ -1,2 +1,0 @@
-border-radius: 20px; Note: This code for .container
-border-radius: 8px; Note: This code for .item class
