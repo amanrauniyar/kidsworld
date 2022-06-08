@@ -29,7 +29,7 @@ header .logo
     color: #fff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -102,7 +102,7 @@ section img#moon-mountain
     white-space: nowrap;
     font-size: 7.4vw;
     z-index: 9;
-    transform: translateX(120px);
+    transform: translateX(135px);
 }
 #btn
 {
@@ -114,9 +114,9 @@ section img#moon-mountain
     color: #2b1055;
     font-size: 1.5em;
     z-index: 8;
-    transform: translateY(100px);
+    transform: translateY(215px);
     position: relative;
-    right: 240px;
+    right: 280px;
 }
 .sec
 {
@@ -127,7 +127,7 @@ section img#moon-mountain
 .sec h2
 {
     font-size: 3.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #fff;
 }
 .sec p
